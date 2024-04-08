@@ -8,7 +8,7 @@
 	};
 </script>
 <button class="hover:cursor-pointer box-content bg-gray-400 transition-all rounded-full p-2" on:click={toggleDarkMode}>
-    {#if darkMode}
+    {#if !darkMode}
         <Svg
             viewBox="0 0 256 256"
             stroke="white"
